@@ -50,9 +50,12 @@ li a:hover {
 }
 
 #main-content {
-    position: absolute; /*super important - don't change this*/
-    top: 550px; /*This keeps the main content under the header image*/
-    width: 1000px
+    width: 1000px;
+    display: inline-block;
+    position: absolute;
+    top: 550px;
+    left: 0;
+
 }
 
 /*This moves the paragraphs to the right to make room for macarons-image*/
@@ -192,3 +195,32 @@ span {
     float: right;
     margin: 0 10px 0 0;
 }
+#schedule_div {
+    position: absolute;
+    top: 950px;
+}
+
+#footer_ul {
+    list-style-type: none;
+    background-color: #df5277;
+    padding: 0;
+    margin: 0;
+}
+
+#footer li {
+    display: inline-block;
+    margin: 0 5% 0 5%;
+    height: 80px;
+    padding: 0;
+}
+
+#footer{
+    width: 1000px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    top: 1200px;
+
+}
+
+

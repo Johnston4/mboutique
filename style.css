@@ -1,0 +1,76 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+#header {
+    background-color: #fffabe;
+    width: 1000px;
+    height: 72px;
+}
+
+#firstbox {
+    margin: 1% 1% 1% 12%; /* This is to keep the navigation titles in the right position*/
+}
+
+ ul{
+     margin: 0; /*This is to remove the default margins of ul*/
+ }
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #151515
+}
+
+a {
+    text-decoration: none;
+    color: #151515;
+}
+
+li a:hover {
+    color: #d43551;
+}
+
+#logo {
+    display: inline;
+    float: left;
+    margin: 2% 0 2% 4%;
+}
+
+#welcome-image {
+}
+
+/*Everything under here is exclusively for the main content*/
+
+#macarons-image {
+    float: left;
+}
+
+#main-content {
+    position: absolute; /*super important - don't change this*/
+    top: 550px; /*This keeps the main content under the header image*/
+    width: 1000px
+}
+
+/*This moves the paragraphs to the right to make room for macarons-image*/
+#p {
+    margin: 0 0 0 20%;
+    padding: 0 0 0 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

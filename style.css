@@ -100,6 +100,7 @@ p {
 }*/
 #coconut {
     background-color: #824603;
+    color: white;
 }
 
 #greentea {
@@ -107,18 +108,21 @@ p {
 }
 #vanilla {
     background-color: #d43551;
+    color: white;
 }
 #pistachio {
     background-color: #fffabe;
 }
 #lemon {
     background-color: #a2304e;
+    color: white;
 }
 #tiffany_blue {
     background-color: #fffabe;
 }
 #almond {
     background-color: #c39005;
+    color: white;
 }
 #second {
     #position: absolute;
@@ -126,6 +130,7 @@ p {
     height: 33px;
     width: 1000px;
     margin: 0;
+    padding: 0;
 }
 #under li {
     font-family: Arial, Helvetica, sans-serif;
@@ -133,7 +138,9 @@ p {
     display: inline-block;
     width: 126px;
     height: 33px;
-    margin: 0 0 0 .75%;
+    margin: 6px;
+    box-sizing: border-box;
+    padding: 10px 0 0 10px;
 }
 
 #under {
@@ -142,21 +149,25 @@ p {
     height: 33px;
     width: 1000px;
     margin: 0;
+    padding: 0;
 }
 
 #second li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     display: inline-block;
-    width: 126px;
     height: 33px;
+    width: 126px;
     background-color: #fffabe;
-    margin: 0 0% 0 .75%;
+    margin: 6px;
+    box-sizing: border-box;
+    padding: 10px 0 0 10px;
 }
 #schedule {
     #position: absolute;
     #top:408px;
-    margin: 0;
+    margin: 75px 0 0 0;
+    padding: 0;
     display: inline-block;
     height: 74px;
     width: 1000px
@@ -168,9 +179,16 @@ p {
     height: 74px;
     width: 126px;
     background-color: #fffabe;
-    margin: 0 0 0 .75%;
+    margin: 6px;
+    box-sizing: border-box;
+    padding: 10px 0 0 10px;
 }
 
 span {
     font-size: 12px;
+}
+
+.macaron {
+    float: right;
+    margin: 0 10px 0 0;
 }

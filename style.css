@@ -48,6 +48,7 @@ li a:hover {
 
 #macarons-image {
     float: left;
+    margin: 5% 5% 5% 7%;
 }
 
 #main-content {
@@ -58,15 +59,76 @@ li a:hover {
 
 /*This moves the paragraphs to the right to make room for macarons-image*/
 #p {
-    margin: 0 0 0 20%;
+    margin: 0 0 0 30%;
     padding: 0 0 0 4%;
 }
 
+.small_p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #6a6969;
+}
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
 
+.p_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+#schedule {
+    height: 74px;
+    width: 1000px
+}
+#schedule div {
+    display: inline-block;
+    height: 74px;
+    width: 126px;
+    background-color: #fffabe;
+    margin: 0 .5% 1% .75%;
+}
 
+.chocolate {
+    float: right;
+    margin: 0 5% 0 0;
+}
+.coconut {
+    float: right;
+    margin: 0 5% 0 0;
+}
+#under {
+    height: 33px;
+    width: 1000px;
+}
 
+#second {
+    height: 33px;
+    width: 1000px;
+}
+#under div {
+    display: inline-block;
+    width: 126px;
+    height: 33px;
+    background-color: #824603;
+    margin: 0 .5% 1% .75%;
+}
 
+#second div {
+    display: inline-block;
+    width: 126px;
+    height: 33px;
+    background-color: #fffabe;
+    margin: 0 .5% 1% .75%;
+}
+
+#schedule div p {
+    margin: 0;
+    display: inline-block;
+}
 
 
 

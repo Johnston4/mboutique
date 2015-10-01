@@ -7,7 +7,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #151515
-
 }
 
 #header {
@@ -42,8 +41,6 @@ li a:hover {
 #welcome-image {
 }
 
-/*Everything under here is exclusively for the main content*/
-
 #macarons-image {
     float: left;
     margin: 5% 5% 5% 7%;
@@ -55,7 +52,6 @@ li a:hover {
     position: absolute;
     top: 550px;
     left: 0;
-
 }
 
 /*This moves the paragraphs to the right to make room for macarons-image*/
@@ -82,25 +78,6 @@ p {
     color: #6a6969;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*.chocolate {
-    float: right;
-    margin: 0 5% 0 0;
-}
-.coconut {
-    float: right;
-    margin: 0 5% 0 0;
-}*/
 #coconut {
     background-color: #824603;
     color: white;
@@ -127,6 +104,7 @@ p {
     background-color: #c39005;
     color: white;
 }
+
 #second {
     #position: absolute;
     #top: 542px;
@@ -135,6 +113,7 @@ p {
     margin: 0;
     padding: 0;
 }
+
 #under li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -147,8 +126,6 @@ p {
 }
 
 #under {
-    #position: absolute;
-    #top: 575px;
     height: 33px;
     width: 1000px;
     margin: 0;
@@ -166,15 +143,15 @@ p {
     box-sizing: border-box;
     padding: 10px 0 0 10px;
 }
+
 #schedule {
-    #position: absolute;
-    #top:408px;
     margin: 75px 0 0 0;
     padding: 0;
     display: inline-block;
     height: 74px;
     width: 1000px
 }
+
 #schedule li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -195,6 +172,7 @@ span {
     float: right;
     margin: 0 10px 0 0;
 }
+
 #schedule_div {
     position: absolute;
     top: 950px;
@@ -214,8 +192,8 @@ span {
     position: absolute;
     top: 1200px;
     margin: 20px 0 0 0;
-
 }
+
 .f1 {
     display: inline-block;
     margin: .5% 8% .5% 8%;
@@ -233,6 +211,3 @@ span {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
-
-
-

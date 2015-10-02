@@ -1,1 +1,115 @@
 /* Add your CSS here */
+.nav {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #151515
+}
+
+#header {
+    background-color: #fffabe;
+    width: 1000px;
+    height: 72px;
+}
+
+#firstbox {
+    margin: 1% 1% 1% 12%; /* This is to keep the navigation titles in the right position*/
+}
+
+#ul{
+    margin: 0; /*This is to remove the default margins of ul*/
+}
+
+a {
+    text-decoration: none;
+    color: #151515;
+}
+
+li a:hover {
+    color: #d43551;
+}
+
+#logo {
+    display: inline;
+    float: left;
+    margin: 2% 0 2% 4%;
+}
+
+
+
+
+
+
+#main_content {
+    width: 1000px;
+    display: inline-block;
+    position: absolute;
+    top: 510px;
+    left: 0;
+}
+
+#macaron_list, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    font-size: 14px;
+    margin: 30px;
+}
+
+.p_header {
+    font-size: 20px;
+    margin: 40px 30px 40px 30px;
+}
+
+#content_image {
+    position: absolute;
+    top: 510px;
+    left: 0;
+}
+
+.macaron_li {
+    margin: 6px 0;
+}
+
+
+
+
+
+
+
+#footer_ul {
+    list-style-type: none;
+    background-color: #df5277;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+#footer{
+    width: 1000px;
+    height: 80px;
+    position: absolute;
+    top: 1200px;
+    margin: 20px 0 0 0;
+}
+
+.f1 {
+    display: inline-block;
+    margin: .5% 8% .5% 8%;
+    padding: 0 2% 0 2%;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#copyright {
+    margin: 0 25% 0 25%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}

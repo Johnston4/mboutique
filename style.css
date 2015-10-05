@@ -1,3 +1,4 @@
+/* Add your CSS here */
 .nav {
     text-transform: uppercase;
     list-style-type: none;
@@ -38,8 +39,9 @@ li a:hover {
     margin: 2% 0 2% 4%;
 }
 
-#welcome-image {
-}
+
+/* From here is welcome page*/
+
 
 #macarons-image {
     float: left;
@@ -177,6 +179,70 @@ span {
     position: absolute;
     top: 950px;
 }
+
+
+
+
+/* From here is Page 2 - Our macarons*/
+
+
+
+#page2 {
+    width: 1000px;
+    display: inline-block;
+    position: absolute;
+    top: 510px;
+    left: 0;
+}
+
+#macaron_list, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    font-size: 14px;
+    margin: 30px;
+}
+
+.p_header {
+    font-size: 20px;
+    margin: 40px 30px 40px 30px;
+}
+
+#content_image {
+    position: absolute;
+    top: 510px;
+    left: 0;
+}
+
+.macaron_li {
+    margin: 6px 0;
+}
+
+
+
+
+/*From here is page 3 - gifts & parties*/
+
+
+
+
+
+
+
+
+
+
+/*From here is page 4 - contact*/
+
+
+
+
+
+
+
+
+
+/* From here is footer*/
+
 
 #footer_ul {
     list-style-type: none;

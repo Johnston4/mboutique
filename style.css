@@ -258,6 +258,28 @@ p {
 /*From here is page 4 - contact*/
 
 
+#page4 {
+    width: 1000px;
+    display: inline-block;
+    position: absolute;
+    top: 510px;
+    left: 0;
+}
+
+#page4_info {
+    float: left;
+    width: 33%;
+}
+
+#page4_contact {
+    float: left;
+    width: 33%;
+}
+
+#page4_form input {
+    width: 90%;
+    height: 2vw;
+}
 
 
 
@@ -301,4 +323,68 @@ p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+}
+
+
+@media screen and (max-width: 375px) {
+    body, #header, .nav, #contact, #page4_info, #page4_form, #page4_contact, #footer, p, .p_title, .small_p, #page4 {
+        width: 100%;
+    }
+    body {
+        #position: absolute;
+        #top: 0;
+        #left: 0;
+        margin: 0;
+    }
+    #logo {
+        display: inline-block;
+        float: none;
+        width: 40%;
+        Margin: 2% 30%;
+    }
+    #header {
+        position: relative;
+        height: 10%;
+        #width: 100%;
+    }
+    #ul {
+        padding: 0;
+    }
+    .nav {
+        margin: 0;
+        display: inline;
+        font-size: 3vw;
+        #width: 100%;
+    }
+
+    #firstbox{
+        margin: 0 0 0 5%;
+    }
+
+    #contact {
+        #width: 100%;
+    }
+
+    #page4_contact {
+        height: auto;
+    }
+
+   
+    #page4_form {
+        #width: 100%;
+        height: 50%;
+    }
+    #page4_info {
+        #width: 100%;
+    }
+    #page4_info p {
+        font-size: 4vw;
+    }
+    #page4 {
+        position: relative;
+        top: 0;
+    }
+    #image {
+        display: none;
+    }
 }

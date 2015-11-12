@@ -263,12 +263,13 @@ p {
 #page4 {
     width: 1000px;
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: 550px;
     left: 0;
 }
 
 #page4_info {
+
     float: left;
     width: 33%;
 }

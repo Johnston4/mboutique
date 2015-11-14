@@ -1,5 +1,11 @@
 /* Add your CSS here */
+body{
+    position: relative;
+    width: 74%;
+    height: 100%;
+    margin: 0;
 
+}
 .nav {
     text-transform: uppercase;
     list-style-type: none;
@@ -7,17 +13,17 @@
     padding: 1% 1% 1% 1%;
     margin: 1% 1% 1% 1%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1.2vw;
     color: #151515
 }
 
 #header {
-    position: absolute;/* new -remember to add this to assignment 1 and 2*/
-    top: 0;/* new -remember to add this to assignment 1 and 2*/
-    left: 0;/* new -remember to add this to assignment 1 and 2*/
+    position: relative;
+    top: 0;
+    left: 0;
     background-color: #fffabe;
-    width: 1000px;
-    height: 72px;
+    width: 100%;
+    height: 20%;
 }
 
 #firstbox {
@@ -41,24 +47,29 @@ li a:hover {
     display: inline;
     float: left;
     margin: 2% 0 2% 4%;
+    width: 15%;
 }
-
 
 /* From here is welcome page*/
 
+#welcome-image{
+    width: 100%;
+}
 
 #macarons-image {
     float: left;
+    width: 25%;
     position: relative;
-    top: 100px;
-    margin: 5% 5% 5% 7%;
+    top: 50%;
+    left: 5%;
+    #margin: 5% 5% 5% 7%;
 }
 
 #main-content {
-    width: 1000px;
-    display: inline-block;
-    position: absolute;
-    top: 475px;
+    width: 100%;
+    #display: inline-block;
+    position: relative;
+    top: 30%;
     left: 0;
 }
 
@@ -66,23 +77,24 @@ li a:hover {
 #p {
     margin: 0 0 0 30%;
     padding: 0 0 0 4%;
+    font-size: 1vw;
 }
 
 .small_p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1vw;
     color: #6a6969;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1.1vw;
     color: #6a6969;
 }
 
 .p_title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
     color: #6a6969;
     margin: 40px 30px;
 }
@@ -114,64 +126,62 @@ p {
     color: white;
 }
 
-.schedule {
-    position: relative;
-    margin: 75px 0 0 0;
-    padding: 0;
-    list-style-type: none;
-    height: 74px;
+#under, #second, #schedule {
+    height: 30%;
     width: 100%;
-    background-color: #fffabe;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
-.schedule li {
-    position: relative;
+#second li, #schedule li, #under li {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    width: 126px;
-    background-color: #fffabe;
-    margin: 0 3px 0 3px;
+    font-size: 1.1vw;
+    display: inline-block;
+    height: 100%;
+    width: 13%;
+    margin: 0 0 0 .5%;
     box-sizing: border-box;
-    padding: 10px 0 0 10px;
+    padding: 1%;
+}
+
+#second li, #schedule li {
+    background-color: #fffabe;
 }
 
 span {
-    font-size: 12px;
+    font-size: 1.1vw;
 }
 
 .macaron {
     float: right;
-    margin: 0 10px 0 0;
+    margin: 0 5% 0 0;
+    width: 20%;
 }
 
-.schedule_div, #schedule_div {
+#schedule_div {
     position: relative;
-    float: left;
+    width: 100%;
     display: inline-block;
 
 }
 
-p {
-    line-height: 20px;
-}
 
 
 /* From here is Page 2 - Our macarons*/
 
-
-
 #page2 {
-    width: 1000px;
+    width: 100%;
     display: inline-block;
-    position: absolute;
-    top: 510px;
+    position: relative;
+    #top: 510px;
     left: 0;
 }
 
 #macaron_list, p {
     font-family: Arial, Helvetica, sans-serif;
     color: #6a6969;
-    font-size: 14px;
+    font-size: 1.1vw;
     margin: 30px;
 }
 
@@ -182,7 +192,8 @@ p {
 
 #content_image {
     position: absolute;
-    top: 510px;
+    width: 100%;
+    top: 50%;
     left: 0;
 }
 
@@ -199,10 +210,10 @@ p {
 
 
 #page3 {
-    width: 1000px;
+    width: 100%;
     display: inline-block;
-    position: absolute;
-    top: 510px;
+    position: relative;
+    #top: 510px;
     left: 0;
 }
 
@@ -226,12 +237,14 @@ p {
 
 /*From here is page 4 - contact*/
 
-
+#contact {
+    width: 100%;
+}
 #page4 {
-    width: 1000px;
+    width: 100%;
     display: inline-block;
     position: relative;
-    top: 550px;
+
     left: 0;
 }
 
@@ -273,38 +286,33 @@ p {
     height: 3vw;
 }
 
-
-
-
-
 /* From here is footer*/
 
 
 #footer_ul {
     list-style-type: none;
     background-color: #df5277;
-    height: 80px;
-    padding: 0;
-    margin: 0;
+    height: 100%;
+    padding: 1%;
+    margin: 1% 0 0 0;
 }
 
 #footer{
-    width: 1000px;
-    height: 80px;
-    position: absolute;
-    top: 1200px;
-    left: 0; /* new -remember to add this to assignment 1 and 2*/
-    margin: 20px 0 0 0;
+    width: 100%;
+    height: 10%;
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .f1 {
     display: inline-block;
-    margin: .5% 8% .5% 8%;
+    margin: .5% 5% .5% 5%;
     padding: 0 2% 0 2%;
     box-sizing: border-box;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 1.3vw;
 }
 
 #copyright {
@@ -312,9 +320,8 @@ p {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 1.5vw;
 }
-
 
 @media screen and (max-width: 375px) {
     body, #main-content, #header, .nav, #contact, #page4_info, #page4_form, #page4_contact, #footer, p, .p_title, .small_p, #page4, #page3, #page2, #welcome-image, #schedule_div, .schedule {

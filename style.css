@@ -60,8 +60,8 @@ li a:hover {
 #macarons-image {
     float: left;
     width: 25%;
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 20%;
     left: 5%;
     #margin: 5% 5% 5% 7%;
 }
@@ -83,19 +83,19 @@ li a:hover {
 
 .small_p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 1em;
     color: #6a6969;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.1em;
     color: #6a6969;
 }
 
 .p_title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
+    font-size: 2em;
     color: #6a6969;
     margin: 40px 30px;
 }
@@ -105,23 +105,19 @@ p {
     color: white;
 }
 
-#greentea {
+#greentea, #tiffany_blue, #pistachio {
     background-color: #fffabe;
 }
 #vanilla {
     background-color: #d43551;
     color: white;
 }
-#pistachio {
-    background-color: #fffabe;
-}
+
 #lemon {
     background-color: #a2304e;
     color: white;
 }
-#tiffany_blue {
-    background-color: #fffabe;
-}
+
 #almond {
     background-color: #c39005;
     color: white;
@@ -182,7 +178,7 @@ span {
 #macaron_list, p {
     font-family: Arial, Helvetica, sans-serif;
     color: #6a6969;
-    font-size: 1.1vw;
+    font-size: 1.1em;
     margin: 30px;
 }
 
@@ -330,9 +326,6 @@ span {
         width: 100%;
     }
     body {
-        #position: absolute;
-        #top: 0;
-        #left: 0;
         margin: 0;
     }
     #logo {
@@ -357,8 +350,9 @@ span {
     #firstbox{
         margin: 0 0 0 5%;
     }
-
-
+    #gift_parties_background {
+        display: none;
+    }
     #page4_contact {
         height: 120vw;
     }
@@ -388,9 +382,6 @@ span {
     #page4_form {
         width: 95%;
         height: 90vw;
-    }
-    #page4_info {
-        #width: 100%;
     }
 
     #page4_info p {
@@ -422,6 +413,5 @@ span {
     }
     .f1:nth-of-type(3) {
         position: relative;
-        left: 35vw;
     }
 }

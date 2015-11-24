@@ -1,0 +1,13 @@
+#header {
+    background-color: darkred;
+}
+a {
+    color: white;
+}
+
+#footer_ul {
+    background-color: darkgreen;
+}
+p, .p_title {
+    color: darkgreen;
+}

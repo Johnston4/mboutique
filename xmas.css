@@ -1,5 +1,5 @@
 #header {
-    background-color: darkred;
+    background-color: darkgreen;
 }
 a {
     color: white;
@@ -9,5 +9,8 @@ a {
     background-color: darkgreen;
 }
 p, .p_title {
-    color: darkgreen;
+    color: white;
+}
+body {
+    background-color: darkred;
 }

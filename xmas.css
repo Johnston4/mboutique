@@ -1,16 +1,11 @@
-#header {
+#header, #footer_ul  {
     background-color: darkgreen;
 }
-a {
+
+p, .p_title, a {
     color: white;
 }
 
-#footer_ul {
-    background-color: darkgreen;
-}
-p, .p_title {
-    color: white;
-}
 body {
     background-color: darkred;
 }

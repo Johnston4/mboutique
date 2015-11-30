@@ -1,1 +1,167 @@
 /* Add your CSS here */
+body{
+    position: relative;
+    left: 12.5%;
+    width: 75%;
+    height: 100%;
+    margin: 0;
+}
+/*header css*/
+#header {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #fffabe;
+    width: 100%;
+    height: 12%;
+}
+.nav {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    padding: 3%;
+    position: relative;
+    left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+}
+a {
+    text-decoration: none;
+    color: #151515;
+}
+#ul{
+    margin: 0; /*This is to remove the default margins of ul*/
+    height: 30%;
+}
+li a:hover {
+    color: #d43551;
+}
+#logo {
+    display: inline;
+    float: left;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    width: 16%;
+}
+/*footer css*/
+#footer_ul {
+    list-style-type: none;
+    background-color: #df5277;
+    height: 100%;
+    padding: 1%;
+    margin: 1% 0 0 0;
+}
+#footer{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+}
+.f1 {
+    display: inline-block;
+    position: relative;
+    left: 1%;
+    margin: .5% 10% .5% 8%;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+}
+#copyright {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+}
+/*index.html css*/
+#welcome-image, #main-content{
+    width: 100%;
+    position: relative;
+    left: 0;
+}
+#macarons-image {
+    float: left;
+    width: 17%;
+    position: absolute;
+    top: 20%;
+}
+
+#p {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 0 0 0 4%;
+    font-size: 1em;
+    width: 75%;
+    position: relative;
+    left: 20%;
+}
+.small_p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #6a6969;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #6a6969;
+}
+.p_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #6a6969;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#greentea, #tiffany_blue, #pistachio {
+    background-color: #fffabe;
+}
+#coconut, #vanilla, #lemon, #almond{
+    color: white;
+}
+#coconut {
+    background-color: #824603;
+}
+#vanilla {
+    background-color: #d43551;
+}
+#lemon {
+    background-color: #a2304e;
+}
+#almond {
+    background-color: #c39005;
+}
+#under, #second, #schedule {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#second li, #schedule li, #under li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+    display: inline-block;
+    width: 13%;
+    margin: 0 0 0 .5%;
+    box-sizing: border-box;
+    padding: 1%;
+}
+#second li, #schedule li {
+    background-color: #fffabe;
+}
+span {
+    font-size: 1.1vw;
+}
+.macaron {
+    float: right;
+    margin: 0;
+    width: 20%;
+}
+#schedule_div {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}

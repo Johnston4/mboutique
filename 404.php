@@ -1,0 +1,1 @@
+<img class='error' src="assets/images/404macaron.png">

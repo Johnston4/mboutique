@@ -29,6 +29,7 @@
         </p>
         <?php
         if(!empty($_POST)){
+            echo 'Thank you for your submission. We will respond as quickly as possible! ~The MBoutique Team';
             $name= $_POST['name'];
             $email = $_POST['email'];
             $phone = $_POST['phone'];
@@ -39,28 +40,21 @@
             $name='';
             $email ='';
             $phone ='';
-            $subject = '';
-            $message = '';
-        }
-            ?>
-            <form id="page4_form" action="index.php?page=contact" method="post">
+            $subject ='';
+            $message ='';
+        ?>
+        <form id="page4_form" action="index.php?page=contact" method="post">
             <input type="text" name="name" placeholder="Name" value="<?=$name;?>">
             <input type="text" name="email" placeholder="Email" value="<?=$email;?>">
             <input type="text" name="phone" placeholder="Phone" value="<?=$phone;?>">
             <input type="text" name="subject" placeholder="Subject" value="<?=$subject;?>">
             <textarea name="message" placeholder="Message"><?=$message;?></textarea>
-            <button name="submit">Submit</button>
+        <button name="submit">Submit</button>
+            <?php
+        }
+            ?>
+
         </form>
-        <?php
-
-
-        ?>
-
-
-
-
-
-
     </div>
     <div>
         <img class="image_hide" id="image" src="assets/images/macarons-image.png">

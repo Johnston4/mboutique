@@ -35,6 +35,15 @@
             $phone = $_POST['phone'];
             $subject = $_POST['subject'];
             $message = $_POST['message'];
+            ?>
+        <form id="page4_form" action="index.php?page=contact" method="post">
+            <input type="text" name="name" placeholder="Name" value="<?=$name;?>">
+            <input type="text" name="email" placeholder="Email" value="<?=$email;?>">
+            <input type="text" name="phone" placeholder="Phone" value="<?=$phone;?>">
+            <input type="text" name="subject" placeholder="Subject" value="<?=$subject;?>">
+            <textarea name="message" placeholder="Message"><?=$message;?></textarea>
+            <button name="submit">Submit</button>
+        <?php
         }
         else{
             $name='';
